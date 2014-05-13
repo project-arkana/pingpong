@@ -6,8 +6,8 @@ Quick test of Unity RPC ordering
 - Load Main.scene
 - Build and Run a standalone using Main.scene
 - Using both the Unity IDE and the standalone build: 
-- Start a server
-- Connect locally on the client
+- Press "Start Server" on the standalone build.
+- Press "Connect Locally" after hitting Play inside of Unity
 - Observe:
 -   The server sends PING and then PONG
 -   The client receives PONG and then PING
